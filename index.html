@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <title>Frontend Mentor | Time tracking dashboard</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+  <div class="main">
+    <div class="togglebox">
+      <input type="checkbox" id="darkmode-toggle" />
+      <label for="darkmode-toggle"></label>
+    </div>
+
+
+    <div class="container">
+      <div class="left">
+        <div class="Jeremy">
+          <img class="jeremy-img" src="./images/image-jeremy.png" alt="Jeremy-image">
+          <div class="rname">
+            <p class="report">Report for</p>
+            <h1 class="name">Jeremy Robson</h1>
+          </div>
+
+        </div>
+        <div class="active">
+          <p class="daily">Daily</p>
+          <br>
+          <p class="activee weekly">Weekly</p>
+          <br>
+          <p class="monthly">Monthly</p>
+        </div>
+      </div>
+      <div class="right">
+
+        <div class="flipcardcont">
+          <div class="flipcard">
+
+            <div class="item work">
+              <div class="image">
+                <img src="images/icon-work.svg" alt="Work-img">
+              </div>
+              <div class="content">
+                <div class="sm">
+                  <p class="subject">Work</p>
+                  <img src="images/icon-ellipsis.svg" alt="icon-ellipsis">
+                </div>
+                <div class="lc">
+                  <p class="current-time"><span class="texthrs">32</span>hrs</p>
+                  <p class="prev-time"><span class="prevtext">Last Week-</span><span class="prevhrs">36</span> hrs</p>
+                </div>
+              </div>
+            </div>
+
+            <div class="flipback">
+              <h1>Work</h1>
+            </div>
+          </div>
+        </div>
+
+        <div class="flipcardcont">
+          <div class="flipcard">
+            <div class="item play">
+              <div class="image">
+                <img src="images/icon-play.svg" alt="play-img">
+              </div>
+              <div class="content">
+                <div class="sm">
+                  <p class="subject">Play</p>
+                  <img src="images/icon-ellipsis.svg" alt="icon-ellipsis">
+                </div>
+
+                <div class="lc">
+                  <p class="current-time"><span class="texthrs">10</span>hrs</p>
+
+                  <p class="prev-time"><span class="prevtext">Last Week-</span><span class="prevhrs">8</span>hrs</p>
+                </div>
+              </div>
+            </div>
+
+            <div class="flipback">
+              <h1>Play</h1>
+            </div>
+          </div>
+        </div>
+
+        <div class="flipcardcont">
+          <div class="flipcard">
+            <div class="item study">
+              <div class="image">
+                <img src="images/icon-study.svg" alt="study-img">
+              </div>
+              <div class="content">
+                <div class="sm">
+                  <p class="subject">Study</p>
+                  <img src="images/icon-ellipsis.svg" alt="icon-ellipsis">
+                </div>
+
+                <div class="lc">
+                  <p class="current-time"><span class="texthrs">4</span>hrs</p>
+                  <p class="prev-time"><span class="prevtext">Last Week-</span><span class="prevhrs">7</span>hrs</p>
+                </div>
+              </div>
+            </div>
+            <div class="flipback">
+              <h1>Study</h1>
+            </div>
+          </div>
+        </div>
+
+        <div class="flipcardcont">
+          <div class="flipcard">
+            <div class="item exercise">
+              <div class="image">
+                <img src="images/icon-exercise.svg" alt="exercise-img">
+              </div>
+              <div class="content">
+                <div class="sm">
+                  <p class="subject">Exercise</p>
+                  <img src="images/icon-ellipsis.svg" alt="icon-ellipsis">
+                </div>
+                <div class="lc">
+                  <p class="current-time"><span class="texthrs">4</span>hrs</p>
+                  <p class="prev-time"><span class="prevtext">Last Week-</span><span class="prevhrs">5</span>hrs</p>
+                </div>
+              </div>
+            </div>
+
+            <div class="flipback">
+              <h1>Exercise</h1>
+            </div>
+          </div>
+        </div>
+
+
+
+        <div class="flipcardcont">
+          <div class="flipcard">
+            <div class="item social">
+              <div class="image">
+                <img src="images/icon-social.svg" alt="social-img">
+              </div>
+              <div class="content">
+                <div class="sm">
+                  <p class="subject">Social</p>
+                  <img src="images/icon-ellipsis.svg" alt="icon-ellipsis">
+                </div>
+                <div class="lc">
+                  <p class="current-time"><span class="texthrs">5</span>hrs</p>
+                  <p class="prev-time"><span class="prevtext">Last Week-</span><span class="prevhrs">10</span>hrs</p>
+                </div>
+              </div>
+            </div>
+
+            <div class="flipback">
+              <h1>Social</h1>
+            </div>
+          </div>
+        </div>
+
+        <div class="flipcardcont">
+          <div class="flipcard">
+            <div class="item selfcare">
+              <div class="image">
+                <img src="images/icon-self-care.svg" alt="self-care-img">
+              </div>
+              <div class="content">
+                <div class="sm">
+                  <p class="subject">Self Care</p>
+                  <img src="images/icon-ellipsis.svg" alt="icon-ellipsis">
+                </div>
+                <div class="lc">
+                  <p class="current-time"><span class="texthrs">2</span>hrs</p>
+                  <p class="prev-time"><span class="prevtext">Last Week-</span><span class="prevhrs">2</span>hrs</p>
+                </div>
+              </div>
+            </div>
+
+
+            <div class="flipback">
+              <h1>Selfcare</h1>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  
+
+
+    <div class="attribution">
+      Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>
+      Coded by <a href="https://github.com/Varshini-47/time-tracking">Varshini</a>
+    </div>
+  </div>
+
+  <script src="index.js"></script>
+</body>
+
+</html>
