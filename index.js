@@ -56,3 +56,21 @@ monthly.addEventListener("click", () => {
         prevTextArr[index].innerHTML = "Last Month-";
     }
 });
+const flips = document.querySelectorAll(".flipcard");
+function applyRotation() {
+  flips.forEach(flip => {
+    flip.addEventListener("click", () => {
+      flip.classList.toggle('flip');
+    });
+  });
+}
+function checkScreenSize(x) {
+  if (x.matches) {
+    applyRotation();
+  }
+}
+var x = window.matchMedia("(max-width:600px)");
+checkScreenSize(x);
+x.addEventListener("change", function() {
+  checkScreenSize(x);
+});
