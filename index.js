@@ -10,6 +10,7 @@ const lastHoursArr = document.querySelectorAll(".prevhrs");
 const prevTextArr = document.querySelectorAll(".prevtext");
 const url = "./data.json";
 
+
 const darkmodetoggle = document.querySelector("#darkmode-toggle");
 const attribution = document.querySelector(".attribution");
 
